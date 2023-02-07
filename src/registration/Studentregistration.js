@@ -31,6 +31,14 @@ const Studentregistration = () => {
               defaultValue="Trainee"
             />
           </Grid>
+          <Grid item>
+            <TextField
+              required
+              id="outlined-required"
+              label="Required"
+              defaultValue="Wrocus"
+            />
+          </Grid>
 
           <Grid item>
             <Button variant="contained" fullWidth>
